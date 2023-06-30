@@ -5,6 +5,12 @@ import styles from './myAppStyles.module.css'
 
 import { Inline } from './components/Inline';
 import { Forms } from './components/Forms';
+import { FormDetail } from './components/FormDetail';
+import { FragmentDemo } from './components/Fragment';
+import { Table } from './components/Table';
+import { FragmentList } from './components/FragmentList';
+import LifeCycleA from './components/LifeCycleA';
+
 // import { StyleSheets } from './components/StyleSheets';
 // import { NamedList2 } from './components/NamedList2';
 // import { ParentComponent } from './components/ParentComponent';
@@ -53,7 +59,13 @@ function App() {
       {/* <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1> */}
 
-      <Forms/>
+      {/* <Forms/> */}
+
+      {/* <FormDetail/> */}
+      {/* <FragmentDemo/> */}
+      {/* <Table/> */}
+      {/* <FragmentList/> */}
+      <LifeCycleA/>
     </div>
     
   );
