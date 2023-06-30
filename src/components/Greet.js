@@ -3,7 +3,9 @@
 // }
 
 // const Greet=()=><h1>Hello React</h1>
-export const Greet=({name,designation,children})=>{
+// export const Greet=({name,designation,children})=>{
+    export const Greet=(props)=>{
+       const {name,designation,children}=props;
     // props.name="Next JS"  props are immutable
 return(<div>
             <h1>Hello {name} aka {designation} </h1>

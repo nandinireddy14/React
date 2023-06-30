@@ -1,6 +1,16 @@
 // import logo from './logo.svg';
 import './App.css';
-import Counter from './components/Counter';
+import './myAppStyles.css'
+import styles from './myAppStyles.module.css'
+
+import { Inline } from './components/Inline';
+import { Forms } from './components/Forms';
+// import { StyleSheets } from './components/StyleSheets';
+// import { NamedList2 } from './components/NamedList2';
+// import { ParentComponent } from './components/ParentComponent';
+// import { ClickHandler } from './components/ClickHandler';
+// import { UserGreetings } from './components/UserGreetings';
+// import Counter from './components/Counter';
 // import { FunctionMessage } from './components/FunctionMessage';
 // import { Message } from './components/Message';
 // import {Greet} from './components/Greet';
@@ -28,8 +38,22 @@ function App() {
       {/* <Message/> */}
       {/* <FunctionMessage/> */}
 
-      <Counter/>
+      {/* <Counter/> */}
 
+      {/* <ClickHandler/> */}
+      {/* <UserGreetings/> */}
+      {/* <ParentComponent/> */}
+
+      {/* <NamedList2/> */}
+
+      {/* <StyleSheets primary={false}/> */}
+
+      {/* <Inline/> */}
+
+      {/* <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1> */}
+
+      <Forms/>
     </div>
     
   );
