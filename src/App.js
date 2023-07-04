@@ -10,6 +10,15 @@ import { FragmentDemo } from './components/Fragment';
 import { Table } from './components/Table';
 import { FragmentList } from './components/FragmentList';
 import LifeCycleA from './components/LifeCycleA';
+import PureComp from './components/PureComp';
+import RegComp from './components/RegComp';
+import ParentComp from './components/ParentComp';
+import WelcomeRefDemo from './components/WelcomeRefDemo';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
+import ErrorBoundary from './components/ErrorBoundary';
+import { Hero } from './components/Hero';
+import { PortalDemo } from './components/PortalDemo';
 
 // import { StyleSheets } from './components/StyleSheets';
 // import { NamedList2 } from './components/NamedList2';
@@ -65,7 +74,19 @@ function App() {
       {/* <FragmentDemo/> */}
       {/* <Table/> */}
       {/* <FragmentList/> */}
-      <LifeCycleA/>
+      {/* <LifeCycleA/> */}
+      {/* <ParentComp/> */}
+      {/* <WelcomeRefDemo/> */}
+      {/* <FocusInput/> */}
+      {/* <FRParentInput/> */}
+      {/* <ErrorBoundary>  
+              <Hero heroName='Batman'/>
+      </ErrorBoundary>
+      <ErrorBoundary> <Hero heroName='Superman'/></ErrorBoundary>
+      <ErrorBoundary>  <Hero heroName='Joker'/>
+      </ErrorBoundary> */}
+
+      <PortalDemo/>
     </div>
     
   );
